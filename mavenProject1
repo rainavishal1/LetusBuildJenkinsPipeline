@@ -1,0 +1,6 @@
+mavenProject {
+		repo = 'http://52.40.148.113:10080/pipeline-workshop/jenkinsfile-demo.git'
+		jdk = '8'
+		maven = '3.3.9'
+		mavenBuildCommand = 'clean package'
+	}
