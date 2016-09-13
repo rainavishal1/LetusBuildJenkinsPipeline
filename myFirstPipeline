@@ -1,0 +1,11 @@
+node('docker-cloud'){
+    stage 'build'
+       sh 'echo hello from jenkins agent'
+       
+    stage 'test'
+      echo 'test some things'
+    
+    stage 'deploy'
+      echo 'deploy some things'
+}
+
